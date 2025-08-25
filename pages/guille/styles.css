@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    font-family: "Bitcount Prop Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+
+}
+nav{
+    background-color: #5761f0;
+    font-family: "Bitcount Prop Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+a {
+    color: #000000;
+    padding: 5px;
+}
+main {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ background-image: url("./img/pngwing.com\ \(1\).png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;  
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.card:hover {
+  transform: translateY(5px);
+}
+
+.perfil {
+  width: 150px;
+  height: 150px;
+  border: solid 2px #5761f0;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.card:hover .perfil {
+    content: url("/img/c94e50e1-b966-478b-ab55-78873e975961.jfif"); 
+}
+
+.titulo {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.description {
+    color: #666;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.habilidades {
+    color: #5761f0;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+    font-family: "Bitcount Prop Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    cursor: pointer;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: contain;
+  display: flex;
+}
+footer{
+    background-color: #5761f0;
+    padding: 10px;
+}
+
